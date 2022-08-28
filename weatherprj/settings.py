@@ -47,7 +47,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'weatherProject.urls'
+ROOT_URLCONF = 'weatherPrj.urls'
 
 TEMPLATES = [
     {
@@ -121,3 +121,4 @@ MEDIA_URL = '/images/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+
